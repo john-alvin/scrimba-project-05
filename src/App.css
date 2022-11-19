@@ -26,3 +26,31 @@ header {
   width: 50px;
   height: 40px;
 }
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.input-text {
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  text-transform: capitalize;
+  border: 1px solid #d5d4d8;
+}
+
+.button-generator {
+  grid-column: span 2;
+  background: linear-gradient(90deg, #672280, #a626d3);
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
