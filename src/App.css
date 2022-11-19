@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  color: #fff;
+  background: linear-gradient(90deg, #672280, #a626d3);
+}
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.troll-face {
+  width: 50px;
+  height: 40px;
+}
