@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "./component/Header";
-import Body from "./component/Body";
+
+import Meme from "./component/Meme";
 import "./App.css";
 
 function App() {
   return (
     <div>
       <Header />
-      <Body />
+      <Meme />
     </div>
   );
 }
