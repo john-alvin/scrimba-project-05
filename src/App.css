@@ -55,3 +55,10 @@ header {
   font-weight: 700;
   text-transform: capitalize;
 }
+.image-meme {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
